@@ -1,0 +1,9227 @@
+[
+  {
+    "id": 1,
+    "name": "Pokemon1",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 2,
+    "name": "Pokemon2",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 3,
+    "name": "Pokemon3",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 4,
+    "name": "Pokemon4",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 5,
+    "name": "Pokemon5",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 6,
+    "name": "Pokemon6",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 7,
+    "name": "Pokemon7",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 8,
+    "name": "Pokemon8",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 9,
+    "name": "Pokemon9",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 10,
+    "name": "Pokemon10",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 11,
+    "name": "Pokemon11",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 12,
+    "name": "Pokemon12",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 13,
+    "name": "Pokemon13",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 14,
+    "name": "Pokemon14",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 15,
+    "name": "Pokemon15",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 16,
+    "name": "Pokemon16",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 17,
+    "name": "Pokemon17",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 18,
+    "name": "Pokemon18",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 19,
+    "name": "Pokemon19",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 20,
+    "name": "Pokemon20",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 21,
+    "name": "Pokemon21",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 22,
+    "name": "Pokemon22",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 23,
+    "name": "Pokemon23",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 24,
+    "name": "Pokemon24",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 25,
+    "name": "Pokemon25",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 26,
+    "name": "Pokemon26",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 27,
+    "name": "Pokemon27",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 28,
+    "name": "Pokemon28",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 29,
+    "name": "Pokemon29",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 30,
+    "name": "Pokemon30",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 31,
+    "name": "Pokemon31",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 32,
+    "name": "Pokemon32",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 33,
+    "name": "Pokemon33",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 34,
+    "name": "Pokemon34",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 35,
+    "name": "Pokemon35",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 36,
+    "name": "Pokemon36",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 37,
+    "name": "Pokemon37",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 38,
+    "name": "Pokemon38",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 39,
+    "name": "Pokemon39",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 40,
+    "name": "Pokemon40",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 41,
+    "name": "Pokemon41",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 42,
+    "name": "Pokemon42",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 43,
+    "name": "Pokemon43",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 44,
+    "name": "Pokemon44",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 45,
+    "name": "Pokemon45",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 46,
+    "name": "Pokemon46",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 47,
+    "name": "Pokemon47",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 48,
+    "name": "Pokemon48",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 49,
+    "name": "Pokemon49",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 50,
+    "name": "Pokemon50",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 51,
+    "name": "Pokemon51",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 52,
+    "name": "Pokemon52",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 53,
+    "name": "Pokemon53",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 54,
+    "name": "Pokemon54",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 55,
+    "name": "Pokemon55",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 56,
+    "name": "Pokemon56",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 57,
+    "name": "Pokemon57",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 58,
+    "name": "Pokemon58",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 59,
+    "name": "Pokemon59",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 60,
+    "name": "Pokemon60",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 61,
+    "name": "Pokemon61",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 62,
+    "name": "Pokemon62",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 63,
+    "name": "Pokemon63",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 64,
+    "name": "Pokemon64",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 65,
+    "name": "Pokemon65",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 66,
+    "name": "Pokemon66",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 67,
+    "name": "Pokemon67",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 68,
+    "name": "Pokemon68",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 69,
+    "name": "Pokemon69",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 70,
+    "name": "Pokemon70",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 71,
+    "name": "Pokemon71",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 72,
+    "name": "Pokemon72",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 73,
+    "name": "Pokemon73",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 74,
+    "name": "Pokemon74",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 75,
+    "name": "Pokemon75",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 76,
+    "name": "Pokemon76",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 77,
+    "name": "Pokemon77",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 78,
+    "name": "Pokemon78",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 79,
+    "name": "Pokemon79",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 80,
+    "name": "Pokemon80",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 81,
+    "name": "Pokemon81",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 82,
+    "name": "Pokemon82",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 83,
+    "name": "Pokemon83",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 84,
+    "name": "Pokemon84",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 85,
+    "name": "Pokemon85",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 86,
+    "name": "Pokemon86",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 87,
+    "name": "Pokemon87",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 88,
+    "name": "Pokemon88",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 89,
+    "name": "Pokemon89",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 90,
+    "name": "Pokemon90",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 91,
+    "name": "Pokemon91",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 92,
+    "name": "Pokemon92",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 93,
+    "name": "Pokemon93",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 94,
+    "name": "Pokemon94",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 95,
+    "name": "Pokemon95",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 96,
+    "name": "Pokemon96",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 97,
+    "name": "Pokemon97",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 98,
+    "name": "Pokemon98",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 99,
+    "name": "Pokemon99",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 100,
+    "name": "Pokemon100",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 101,
+    "name": "Pokemon101",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 102,
+    "name": "Pokemon102",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 103,
+    "name": "Pokemon103",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 104,
+    "name": "Pokemon104",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 105,
+    "name": "Pokemon105",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 106,
+    "name": "Pokemon106",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 107,
+    "name": "Pokemon107",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 108,
+    "name": "Pokemon108",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 109,
+    "name": "Pokemon109",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 110,
+    "name": "Pokemon110",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 111,
+    "name": "Pokemon111",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 112,
+    "name": "Pokemon112",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 113,
+    "name": "Pokemon113",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 114,
+    "name": "Pokemon114",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 115,
+    "name": "Pokemon115",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 116,
+    "name": "Pokemon116",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 117,
+    "name": "Pokemon117",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 118,
+    "name": "Pokemon118",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 119,
+    "name": "Pokemon119",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 120,
+    "name": "Pokemon120",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 121,
+    "name": "Pokemon121",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 122,
+    "name": "Pokemon122",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 123,
+    "name": "Pokemon123",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 124,
+    "name": "Pokemon124",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 125,
+    "name": "Pokemon125",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 126,
+    "name": "Pokemon126",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 127,
+    "name": "Pokemon127",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 128,
+    "name": "Pokemon128",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 129,
+    "name": "Pokemon129",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 130,
+    "name": "Pokemon130",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 131,
+    "name": "Pokemon131",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 132,
+    "name": "Pokemon132",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 133,
+    "name": "Pokemon133",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 134,
+    "name": "Pokemon134",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 135,
+    "name": "Pokemon135",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 136,
+    "name": "Pokemon136",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 137,
+    "name": "Pokemon137",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 138,
+    "name": "Pokemon138",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 139,
+    "name": "Pokemon139",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 140,
+    "name": "Pokemon140",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 141,
+    "name": "Pokemon141",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 142,
+    "name": "Pokemon142",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 143,
+    "name": "Pokemon143",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 144,
+    "name": "Pokemon144",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 145,
+    "name": "Pokemon145",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 146,
+    "name": "Pokemon146",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 147,
+    "name": "Pokemon147",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 148,
+    "name": "Pokemon148",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 149,
+    "name": "Pokemon149",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 150,
+    "name": "Pokemon150",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 151,
+    "name": "Pokemon151",
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": "Kanto"
+  },
+  {
+    "id": 152,
+    "name": "Pokemon152",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 153,
+    "name": "Pokemon153",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 154,
+    "name": "Pokemon154",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 155,
+    "name": "Pokemon155",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 156,
+    "name": "Pokemon156",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 157,
+    "name": "Pokemon157",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 158,
+    "name": "Pokemon158",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 159,
+    "name": "Pokemon159",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 160,
+    "name": "Pokemon160",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 161,
+    "name": "Pokemon161",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 162,
+    "name": "Pokemon162",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 163,
+    "name": "Pokemon163",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 164,
+    "name": "Pokemon164",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 165,
+    "name": "Pokemon165",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 166,
+    "name": "Pokemon166",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 167,
+    "name": "Pokemon167",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 168,
+    "name": "Pokemon168",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 169,
+    "name": "Pokemon169",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 170,
+    "name": "Pokemon170",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 171,
+    "name": "Pokemon171",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 172,
+    "name": "Pokemon172",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 173,
+    "name": "Pokemon173",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 174,
+    "name": "Pokemon174",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 175,
+    "name": "Pokemon175",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 176,
+    "name": "Pokemon176",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 177,
+    "name": "Pokemon177",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 178,
+    "name": "Pokemon178",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 179,
+    "name": "Pokemon179",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 180,
+    "name": "Pokemon180",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 181,
+    "name": "Pokemon181",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 182,
+    "name": "Pokemon182",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 183,
+    "name": "Pokemon183",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 184,
+    "name": "Pokemon184",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 185,
+    "name": "Pokemon185",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 186,
+    "name": "Pokemon186",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 187,
+    "name": "Pokemon187",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 188,
+    "name": "Pokemon188",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 189,
+    "name": "Pokemon189",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 190,
+    "name": "Pokemon190",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 191,
+    "name": "Pokemon191",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 192,
+    "name": "Pokemon192",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 193,
+    "name": "Pokemon193",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 194,
+    "name": "Pokemon194",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 195,
+    "name": "Pokemon195",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 196,
+    "name": "Pokemon196",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 197,
+    "name": "Pokemon197",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 198,
+    "name": "Pokemon198",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 199,
+    "name": "Pokemon199",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 200,
+    "name": "Pokemon200",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 201,
+    "name": "Pokemon201",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 202,
+    "name": "Pokemon202",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 203,
+    "name": "Pokemon203",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 204,
+    "name": "Pokemon204",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 205,
+    "name": "Pokemon205",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 206,
+    "name": "Pokemon206",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 207,
+    "name": "Pokemon207",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 208,
+    "name": "Pokemon208",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 209,
+    "name": "Pokemon209",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 210,
+    "name": "Pokemon210",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 211,
+    "name": "Pokemon211",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 212,
+    "name": "Pokemon212",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 213,
+    "name": "Pokemon213",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 214,
+    "name": "Pokemon214",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 215,
+    "name": "Pokemon215",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 216,
+    "name": "Pokemon216",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 217,
+    "name": "Pokemon217",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 218,
+    "name": "Pokemon218",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 219,
+    "name": "Pokemon219",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 220,
+    "name": "Pokemon220",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 221,
+    "name": "Pokemon221",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 222,
+    "name": "Pokemon222",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 223,
+    "name": "Pokemon223",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 224,
+    "name": "Pokemon224",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 225,
+    "name": "Pokemon225",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 226,
+    "name": "Pokemon226",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 227,
+    "name": "Pokemon227",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 228,
+    "name": "Pokemon228",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 229,
+    "name": "Pokemon229",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 230,
+    "name": "Pokemon230",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 231,
+    "name": "Pokemon231",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 232,
+    "name": "Pokemon232",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 233,
+    "name": "Pokemon233",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 234,
+    "name": "Pokemon234",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 235,
+    "name": "Pokemon235",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 236,
+    "name": "Pokemon236",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 237,
+    "name": "Pokemon237",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 238,
+    "name": "Pokemon238",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 239,
+    "name": "Pokemon239",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 240,
+    "name": "Pokemon240",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 241,
+    "name": "Pokemon241",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 242,
+    "name": "Pokemon242",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 243,
+    "name": "Pokemon243",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 244,
+    "name": "Pokemon244",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 245,
+    "name": "Pokemon245",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 246,
+    "name": "Pokemon246",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 247,
+    "name": "Pokemon247",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 248,
+    "name": "Pokemon248",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 249,
+    "name": "Pokemon249",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 250,
+    "name": "Pokemon250",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 251,
+    "name": "Pokemon251",
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": "Johto"
+  },
+  {
+    "id": 252,
+    "name": "Pokemon252",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 253,
+    "name": "Pokemon253",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 254,
+    "name": "Pokemon254",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 255,
+    "name": "Pokemon255",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 256,
+    "name": "Pokemon256",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 257,
+    "name": "Pokemon257",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 258,
+    "name": "Pokemon258",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 259,
+    "name": "Pokemon259",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 260,
+    "name": "Pokemon260",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 261,
+    "name": "Pokemon261",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 262,
+    "name": "Pokemon262",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 263,
+    "name": "Pokemon263",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 264,
+    "name": "Pokemon264",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 265,
+    "name": "Pokemon265",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 266,
+    "name": "Pokemon266",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 267,
+    "name": "Pokemon267",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 268,
+    "name": "Pokemon268",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 269,
+    "name": "Pokemon269",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 270,
+    "name": "Pokemon270",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 271,
+    "name": "Pokemon271",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 272,
+    "name": "Pokemon272",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 273,
+    "name": "Pokemon273",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 274,
+    "name": "Pokemon274",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 275,
+    "name": "Pokemon275",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 276,
+    "name": "Pokemon276",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 277,
+    "name": "Pokemon277",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 278,
+    "name": "Pokemon278",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 279,
+    "name": "Pokemon279",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 280,
+    "name": "Pokemon280",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 281,
+    "name": "Pokemon281",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 282,
+    "name": "Pokemon282",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 283,
+    "name": "Pokemon283",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 284,
+    "name": "Pokemon284",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 285,
+    "name": "Pokemon285",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 286,
+    "name": "Pokemon286",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 287,
+    "name": "Pokemon287",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 288,
+    "name": "Pokemon288",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 289,
+    "name": "Pokemon289",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 290,
+    "name": "Pokemon290",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 291,
+    "name": "Pokemon291",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 292,
+    "name": "Pokemon292",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 293,
+    "name": "Pokemon293",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 294,
+    "name": "Pokemon294",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 295,
+    "name": "Pokemon295",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 296,
+    "name": "Pokemon296",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 297,
+    "name": "Pokemon297",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 298,
+    "name": "Pokemon298",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 299,
+    "name": "Pokemon299",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 300,
+    "name": "Pokemon300",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 301,
+    "name": "Pokemon301",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 302,
+    "name": "Pokemon302",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 303,
+    "name": "Pokemon303",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 304,
+    "name": "Pokemon304",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 305,
+    "name": "Pokemon305",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 306,
+    "name": "Pokemon306",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 307,
+    "name": "Pokemon307",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 308,
+    "name": "Pokemon308",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 309,
+    "name": "Pokemon309",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 310,
+    "name": "Pokemon310",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 311,
+    "name": "Pokemon311",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 312,
+    "name": "Pokemon312",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 313,
+    "name": "Pokemon313",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 314,
+    "name": "Pokemon314",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 315,
+    "name": "Pokemon315",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 316,
+    "name": "Pokemon316",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 317,
+    "name": "Pokemon317",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 318,
+    "name": "Pokemon318",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 319,
+    "name": "Pokemon319",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 320,
+    "name": "Pokemon320",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 321,
+    "name": "Pokemon321",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 322,
+    "name": "Pokemon322",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 323,
+    "name": "Pokemon323",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 324,
+    "name": "Pokemon324",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 325,
+    "name": "Pokemon325",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 326,
+    "name": "Pokemon326",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 327,
+    "name": "Pokemon327",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 328,
+    "name": "Pokemon328",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 329,
+    "name": "Pokemon329",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 330,
+    "name": "Pokemon330",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 331,
+    "name": "Pokemon331",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 332,
+    "name": "Pokemon332",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 333,
+    "name": "Pokemon333",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 334,
+    "name": "Pokemon334",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 335,
+    "name": "Pokemon335",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 336,
+    "name": "Pokemon336",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 337,
+    "name": "Pokemon337",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 338,
+    "name": "Pokemon338",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 339,
+    "name": "Pokemon339",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 340,
+    "name": "Pokemon340",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 341,
+    "name": "Pokemon341",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 342,
+    "name": "Pokemon342",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 343,
+    "name": "Pokemon343",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 344,
+    "name": "Pokemon344",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 345,
+    "name": "Pokemon345",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 346,
+    "name": "Pokemon346",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 347,
+    "name": "Pokemon347",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 348,
+    "name": "Pokemon348",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 349,
+    "name": "Pokemon349",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 350,
+    "name": "Pokemon350",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 351,
+    "name": "Pokemon351",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 352,
+    "name": "Pokemon352",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 353,
+    "name": "Pokemon353",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 354,
+    "name": "Pokemon354",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 355,
+    "name": "Pokemon355",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 356,
+    "name": "Pokemon356",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 357,
+    "name": "Pokemon357",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 358,
+    "name": "Pokemon358",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 359,
+    "name": "Pokemon359",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 360,
+    "name": "Pokemon360",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 361,
+    "name": "Pokemon361",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 362,
+    "name": "Pokemon362",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 363,
+    "name": "Pokemon363",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 364,
+    "name": "Pokemon364",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 365,
+    "name": "Pokemon365",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 366,
+    "name": "Pokemon366",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 367,
+    "name": "Pokemon367",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 368,
+    "name": "Pokemon368",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 369,
+    "name": "Pokemon369",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 370,
+    "name": "Pokemon370",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 371,
+    "name": "Pokemon371",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 372,
+    "name": "Pokemon372",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 373,
+    "name": "Pokemon373",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 374,
+    "name": "Pokemon374",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 375,
+    "name": "Pokemon375",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 376,
+    "name": "Pokemon376",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 377,
+    "name": "Pokemon377",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 378,
+    "name": "Pokemon378",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 379,
+    "name": "Pokemon379",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 380,
+    "name": "Pokemon380",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 381,
+    "name": "Pokemon381",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 382,
+    "name": "Pokemon382",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 383,
+    "name": "Pokemon383",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 384,
+    "name": "Pokemon384",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 385,
+    "name": "Pokemon385",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 386,
+    "name": "Pokemon386",
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": "Hoenn"
+  },
+  {
+    "id": 387,
+    "name": "Pokemon387",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 388,
+    "name": "Pokemon388",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 389,
+    "name": "Pokemon389",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 390,
+    "name": "Pokemon390",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 391,
+    "name": "Pokemon391",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 392,
+    "name": "Pokemon392",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 393,
+    "name": "Pokemon393",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 394,
+    "name": "Pokemon394",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 395,
+    "name": "Pokemon395",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 396,
+    "name": "Pokemon396",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 397,
+    "name": "Pokemon397",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 398,
+    "name": "Pokemon398",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 399,
+    "name": "Pokemon399",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 400,
+    "name": "Pokemon400",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 401,
+    "name": "Pokemon401",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 402,
+    "name": "Pokemon402",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 403,
+    "name": "Pokemon403",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 404,
+    "name": "Pokemon404",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 405,
+    "name": "Pokemon405",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 406,
+    "name": "Pokemon406",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 407,
+    "name": "Pokemon407",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 408,
+    "name": "Pokemon408",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 409,
+    "name": "Pokemon409",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 410,
+    "name": "Pokemon410",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 411,
+    "name": "Pokemon411",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 412,
+    "name": "Pokemon412",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 413,
+    "name": "Pokemon413",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 414,
+    "name": "Pokemon414",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 415,
+    "name": "Pokemon415",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 416,
+    "name": "Pokemon416",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 417,
+    "name": "Pokemon417",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 418,
+    "name": "Pokemon418",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 419,
+    "name": "Pokemon419",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 420,
+    "name": "Pokemon420",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 421,
+    "name": "Pokemon421",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 422,
+    "name": "Pokemon422",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 423,
+    "name": "Pokemon423",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 424,
+    "name": "Pokemon424",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 425,
+    "name": "Pokemon425",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 426,
+    "name": "Pokemon426",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 427,
+    "name": "Pokemon427",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 428,
+    "name": "Pokemon428",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 429,
+    "name": "Pokemon429",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 430,
+    "name": "Pokemon430",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 431,
+    "name": "Pokemon431",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 432,
+    "name": "Pokemon432",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 433,
+    "name": "Pokemon433",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 434,
+    "name": "Pokemon434",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 435,
+    "name": "Pokemon435",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 436,
+    "name": "Pokemon436",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 437,
+    "name": "Pokemon437",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 438,
+    "name": "Pokemon438",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 439,
+    "name": "Pokemon439",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 440,
+    "name": "Pokemon440",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 441,
+    "name": "Pokemon441",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 442,
+    "name": "Pokemon442",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 443,
+    "name": "Pokemon443",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 444,
+    "name": "Pokemon444",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 445,
+    "name": "Pokemon445",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 446,
+    "name": "Pokemon446",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 447,
+    "name": "Pokemon447",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 448,
+    "name": "Pokemon448",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 449,
+    "name": "Pokemon449",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 450,
+    "name": "Pokemon450",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 451,
+    "name": "Pokemon451",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 452,
+    "name": "Pokemon452",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 453,
+    "name": "Pokemon453",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 454,
+    "name": "Pokemon454",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 455,
+    "name": "Pokemon455",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 456,
+    "name": "Pokemon456",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 457,
+    "name": "Pokemon457",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 458,
+    "name": "Pokemon458",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 459,
+    "name": "Pokemon459",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 460,
+    "name": "Pokemon460",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 461,
+    "name": "Pokemon461",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 462,
+    "name": "Pokemon462",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 463,
+    "name": "Pokemon463",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 464,
+    "name": "Pokemon464",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 465,
+    "name": "Pokemon465",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 466,
+    "name": "Pokemon466",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 467,
+    "name": "Pokemon467",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 468,
+    "name": "Pokemon468",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 469,
+    "name": "Pokemon469",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 470,
+    "name": "Pokemon470",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 471,
+    "name": "Pokemon471",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 472,
+    "name": "Pokemon472",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 473,
+    "name": "Pokemon473",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 474,
+    "name": "Pokemon474",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 475,
+    "name": "Pokemon475",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 476,
+    "name": "Pokemon476",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 477,
+    "name": "Pokemon477",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 478,
+    "name": "Pokemon478",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 479,
+    "name": "Pokemon479",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 480,
+    "name": "Pokemon480",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 481,
+    "name": "Pokemon481",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 482,
+    "name": "Pokemon482",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 483,
+    "name": "Pokemon483",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 484,
+    "name": "Pokemon484",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 485,
+    "name": "Pokemon485",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 486,
+    "name": "Pokemon486",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 487,
+    "name": "Pokemon487",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 488,
+    "name": "Pokemon488",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 489,
+    "name": "Pokemon489",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 490,
+    "name": "Pokemon490",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 491,
+    "name": "Pokemon491",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 492,
+    "name": "Pokemon492",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 493,
+    "name": "Pokemon493",
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": "Sinnoh"
+  },
+  {
+    "id": 494,
+    "name": "Pokemon494",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 495,
+    "name": "Pokemon495",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 496,
+    "name": "Pokemon496",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 497,
+    "name": "Pokemon497",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 498,
+    "name": "Pokemon498",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 499,
+    "name": "Pokemon499",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 500,
+    "name": "Pokemon500",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 501,
+    "name": "Pokemon501",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 502,
+    "name": "Pokemon502",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 503,
+    "name": "Pokemon503",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 504,
+    "name": "Pokemon504",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 505,
+    "name": "Pokemon505",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 506,
+    "name": "Pokemon506",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 507,
+    "name": "Pokemon507",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 508,
+    "name": "Pokemon508",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 509,
+    "name": "Pokemon509",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 510,
+    "name": "Pokemon510",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 511,
+    "name": "Pokemon511",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 512,
+    "name": "Pokemon512",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 513,
+    "name": "Pokemon513",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 514,
+    "name": "Pokemon514",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 515,
+    "name": "Pokemon515",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 516,
+    "name": "Pokemon516",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 517,
+    "name": "Pokemon517",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 518,
+    "name": "Pokemon518",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 519,
+    "name": "Pokemon519",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 520,
+    "name": "Pokemon520",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 521,
+    "name": "Pokemon521",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 522,
+    "name": "Pokemon522",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 523,
+    "name": "Pokemon523",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 524,
+    "name": "Pokemon524",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 525,
+    "name": "Pokemon525",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 526,
+    "name": "Pokemon526",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 527,
+    "name": "Pokemon527",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 528,
+    "name": "Pokemon528",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 529,
+    "name": "Pokemon529",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 530,
+    "name": "Pokemon530",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 531,
+    "name": "Pokemon531",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 532,
+    "name": "Pokemon532",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 533,
+    "name": "Pokemon533",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 534,
+    "name": "Pokemon534",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 535,
+    "name": "Pokemon535",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 536,
+    "name": "Pokemon536",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 537,
+    "name": "Pokemon537",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 538,
+    "name": "Pokemon538",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 539,
+    "name": "Pokemon539",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 540,
+    "name": "Pokemon540",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 541,
+    "name": "Pokemon541",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 542,
+    "name": "Pokemon542",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 543,
+    "name": "Pokemon543",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 544,
+    "name": "Pokemon544",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 545,
+    "name": "Pokemon545",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 546,
+    "name": "Pokemon546",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 547,
+    "name": "Pokemon547",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 548,
+    "name": "Pokemon548",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 549,
+    "name": "Pokemon549",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 550,
+    "name": "Pokemon550",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 551,
+    "name": "Pokemon551",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 552,
+    "name": "Pokemon552",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 553,
+    "name": "Pokemon553",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 554,
+    "name": "Pokemon554",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 555,
+    "name": "Pokemon555",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 556,
+    "name": "Pokemon556",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 557,
+    "name": "Pokemon557",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 558,
+    "name": "Pokemon558",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 559,
+    "name": "Pokemon559",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 560,
+    "name": "Pokemon560",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 561,
+    "name": "Pokemon561",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 562,
+    "name": "Pokemon562",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 563,
+    "name": "Pokemon563",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 564,
+    "name": "Pokemon564",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 565,
+    "name": "Pokemon565",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 566,
+    "name": "Pokemon566",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 567,
+    "name": "Pokemon567",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 568,
+    "name": "Pokemon568",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 569,
+    "name": "Pokemon569",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 570,
+    "name": "Pokemon570",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 571,
+    "name": "Pokemon571",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 572,
+    "name": "Pokemon572",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 573,
+    "name": "Pokemon573",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 574,
+    "name": "Pokemon574",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 575,
+    "name": "Pokemon575",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 576,
+    "name": "Pokemon576",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 577,
+    "name": "Pokemon577",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 578,
+    "name": "Pokemon578",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 579,
+    "name": "Pokemon579",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 580,
+    "name": "Pokemon580",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 581,
+    "name": "Pokemon581",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 582,
+    "name": "Pokemon582",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 583,
+    "name": "Pokemon583",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 584,
+    "name": "Pokemon584",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 585,
+    "name": "Pokemon585",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 586,
+    "name": "Pokemon586",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 587,
+    "name": "Pokemon587",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 588,
+    "name": "Pokemon588",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 589,
+    "name": "Pokemon589",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 590,
+    "name": "Pokemon590",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 591,
+    "name": "Pokemon591",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 592,
+    "name": "Pokemon592",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 593,
+    "name": "Pokemon593",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 594,
+    "name": "Pokemon594",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 595,
+    "name": "Pokemon595",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 596,
+    "name": "Pokemon596",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 597,
+    "name": "Pokemon597",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 598,
+    "name": "Pokemon598",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 599,
+    "name": "Pokemon599",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 600,
+    "name": "Pokemon600",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 601,
+    "name": "Pokemon601",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 602,
+    "name": "Pokemon602",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 603,
+    "name": "Pokemon603",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 604,
+    "name": "Pokemon604",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 605,
+    "name": "Pokemon605",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 606,
+    "name": "Pokemon606",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 607,
+    "name": "Pokemon607",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 608,
+    "name": "Pokemon608",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 609,
+    "name": "Pokemon609",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 610,
+    "name": "Pokemon610",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 611,
+    "name": "Pokemon611",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 612,
+    "name": "Pokemon612",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 613,
+    "name": "Pokemon613",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 614,
+    "name": "Pokemon614",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 615,
+    "name": "Pokemon615",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 616,
+    "name": "Pokemon616",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 617,
+    "name": "Pokemon617",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 618,
+    "name": "Pokemon618",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 619,
+    "name": "Pokemon619",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 620,
+    "name": "Pokemon620",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 621,
+    "name": "Pokemon621",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 622,
+    "name": "Pokemon622",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 623,
+    "name": "Pokemon623",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 624,
+    "name": "Pokemon624",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 625,
+    "name": "Pokemon625",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 626,
+    "name": "Pokemon626",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 627,
+    "name": "Pokemon627",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 628,
+    "name": "Pokemon628",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 629,
+    "name": "Pokemon629",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 630,
+    "name": "Pokemon630",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 631,
+    "name": "Pokemon631",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 632,
+    "name": "Pokemon632",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 633,
+    "name": "Pokemon633",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 634,
+    "name": "Pokemon634",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 635,
+    "name": "Pokemon635",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 636,
+    "name": "Pokemon636",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 637,
+    "name": "Pokemon637",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 638,
+    "name": "Pokemon638",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 639,
+    "name": "Pokemon639",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 640,
+    "name": "Pokemon640",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 641,
+    "name": "Pokemon641",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 642,
+    "name": "Pokemon642",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 643,
+    "name": "Pokemon643",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 644,
+    "name": "Pokemon644",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 645,
+    "name": "Pokemon645",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 646,
+    "name": "Pokemon646",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 647,
+    "name": "Pokemon647",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 648,
+    "name": "Pokemon648",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 649,
+    "name": "Pokemon649",
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": "Unova"
+  },
+  {
+    "id": 650,
+    "name": "Pokemon650",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 651,
+    "name": "Pokemon651",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 652,
+    "name": "Pokemon652",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 653,
+    "name": "Pokemon653",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 654,
+    "name": "Pokemon654",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 655,
+    "name": "Pokemon655",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 656,
+    "name": "Pokemon656",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 657,
+    "name": "Pokemon657",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 658,
+    "name": "Pokemon658",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 659,
+    "name": "Pokemon659",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 660,
+    "name": "Pokemon660",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 661,
+    "name": "Pokemon661",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 662,
+    "name": "Pokemon662",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 663,
+    "name": "Pokemon663",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 664,
+    "name": "Pokemon664",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 665,
+    "name": "Pokemon665",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 666,
+    "name": "Pokemon666",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 667,
+    "name": "Pokemon667",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 668,
+    "name": "Pokemon668",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 669,
+    "name": "Pokemon669",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 670,
+    "name": "Pokemon670",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 671,
+    "name": "Pokemon671",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 672,
+    "name": "Pokemon672",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 673,
+    "name": "Pokemon673",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 674,
+    "name": "Pokemon674",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 675,
+    "name": "Pokemon675",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 676,
+    "name": "Pokemon676",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 677,
+    "name": "Pokemon677",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 678,
+    "name": "Pokemon678",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 679,
+    "name": "Pokemon679",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 680,
+    "name": "Pokemon680",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 681,
+    "name": "Pokemon681",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 682,
+    "name": "Pokemon682",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 683,
+    "name": "Pokemon683",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 684,
+    "name": "Pokemon684",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 685,
+    "name": "Pokemon685",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 686,
+    "name": "Pokemon686",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 687,
+    "name": "Pokemon687",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 688,
+    "name": "Pokemon688",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 689,
+    "name": "Pokemon689",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 690,
+    "name": "Pokemon690",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 691,
+    "name": "Pokemon691",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 692,
+    "name": "Pokemon692",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 693,
+    "name": "Pokemon693",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 694,
+    "name": "Pokemon694",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 695,
+    "name": "Pokemon695",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 696,
+    "name": "Pokemon696",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 697,
+    "name": "Pokemon697",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 698,
+    "name": "Pokemon698",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 699,
+    "name": "Pokemon699",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 700,
+    "name": "Pokemon700",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 701,
+    "name": "Pokemon701",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 702,
+    "name": "Pokemon702",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 703,
+    "name": "Pokemon703",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 704,
+    "name": "Pokemon704",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 705,
+    "name": "Pokemon705",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 706,
+    "name": "Pokemon706",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 707,
+    "name": "Pokemon707",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 708,
+    "name": "Pokemon708",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 709,
+    "name": "Pokemon709",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 710,
+    "name": "Pokemon710",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 711,
+    "name": "Pokemon711",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 712,
+    "name": "Pokemon712",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 713,
+    "name": "Pokemon713",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 714,
+    "name": "Pokemon714",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 715,
+    "name": "Pokemon715",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 716,
+    "name": "Pokemon716",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 717,
+    "name": "Pokemon717",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 718,
+    "name": "Pokemon718",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 719,
+    "name": "Pokemon719",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 720,
+    "name": "Pokemon720",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 721,
+    "name": "Pokemon721",
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": "Kalos"
+  },
+  {
+    "id": 722,
+    "name": "Pokemon722",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 723,
+    "name": "Pokemon723",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 724,
+    "name": "Pokemon724",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 725,
+    "name": "Pokemon725",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 726,
+    "name": "Pokemon726",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 727,
+    "name": "Pokemon727",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 728,
+    "name": "Pokemon728",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 729,
+    "name": "Pokemon729",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 730,
+    "name": "Pokemon730",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 731,
+    "name": "Pokemon731",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 732,
+    "name": "Pokemon732",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 733,
+    "name": "Pokemon733",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 734,
+    "name": "Pokemon734",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 735,
+    "name": "Pokemon735",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 736,
+    "name": "Pokemon736",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 737,
+    "name": "Pokemon737",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 738,
+    "name": "Pokemon738",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 739,
+    "name": "Pokemon739",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 740,
+    "name": "Pokemon740",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 741,
+    "name": "Pokemon741",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 742,
+    "name": "Pokemon742",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 743,
+    "name": "Pokemon743",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 744,
+    "name": "Pokemon744",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 745,
+    "name": "Pokemon745",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 746,
+    "name": "Pokemon746",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 747,
+    "name": "Pokemon747",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 748,
+    "name": "Pokemon748",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 749,
+    "name": "Pokemon749",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 750,
+    "name": "Pokemon750",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 751,
+    "name": "Pokemon751",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 752,
+    "name": "Pokemon752",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 753,
+    "name": "Pokemon753",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 754,
+    "name": "Pokemon754",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 755,
+    "name": "Pokemon755",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 756,
+    "name": "Pokemon756",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 757,
+    "name": "Pokemon757",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 758,
+    "name": "Pokemon758",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 759,
+    "name": "Pokemon759",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 760,
+    "name": "Pokemon760",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 761,
+    "name": "Pokemon761",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 762,
+    "name": "Pokemon762",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 763,
+    "name": "Pokemon763",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 764,
+    "name": "Pokemon764",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 765,
+    "name": "Pokemon765",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 766,
+    "name": "Pokemon766",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 767,
+    "name": "Pokemon767",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 768,
+    "name": "Pokemon768",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 769,
+    "name": "Pokemon769",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 770,
+    "name": "Pokemon770",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 771,
+    "name": "Pokemon771",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 772,
+    "name": "Pokemon772",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 773,
+    "name": "Pokemon773",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 774,
+    "name": "Pokemon774",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 775,
+    "name": "Pokemon775",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 776,
+    "name": "Pokemon776",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 777,
+    "name": "Pokemon777",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 778,
+    "name": "Pokemon778",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 779,
+    "name": "Pokemon779",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 780,
+    "name": "Pokemon780",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 781,
+    "name": "Pokemon781",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 782,
+    "name": "Pokemon782",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 783,
+    "name": "Pokemon783",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 784,
+    "name": "Pokemon784",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 785,
+    "name": "Pokemon785",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 786,
+    "name": "Pokemon786",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 787,
+    "name": "Pokemon787",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 788,
+    "name": "Pokemon788",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 789,
+    "name": "Pokemon789",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 790,
+    "name": "Pokemon790",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 791,
+    "name": "Pokemon791",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 792,
+    "name": "Pokemon792",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 793,
+    "name": "Pokemon793",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 794,
+    "name": "Pokemon794",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 795,
+    "name": "Pokemon795",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 796,
+    "name": "Pokemon796",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 797,
+    "name": "Pokemon797",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 798,
+    "name": "Pokemon798",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 799,
+    "name": "Pokemon799",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 800,
+    "name": "Pokemon800",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 801,
+    "name": "Pokemon801",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 802,
+    "name": "Pokemon802",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 803,
+    "name": "Pokemon803",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 804,
+    "name": "Pokemon804",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 805,
+    "name": "Pokemon805",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 806,
+    "name": "Pokemon806",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 807,
+    "name": "Pokemon807",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 808,
+    "name": "Pokemon808",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 809,
+    "name": "Pokemon809",
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": "Alola"
+  },
+  {
+    "id": 810,
+    "name": "Pokemon810",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 811,
+    "name": "Pokemon811",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 812,
+    "name": "Pokemon812",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 813,
+    "name": "Pokemon813",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 814,
+    "name": "Pokemon814",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 815,
+    "name": "Pokemon815",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 816,
+    "name": "Pokemon816",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 817,
+    "name": "Pokemon817",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 818,
+    "name": "Pokemon818",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 819,
+    "name": "Pokemon819",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 820,
+    "name": "Pokemon820",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 821,
+    "name": "Pokemon821",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 822,
+    "name": "Pokemon822",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 823,
+    "name": "Pokemon823",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 824,
+    "name": "Pokemon824",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 825,
+    "name": "Pokemon825",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 826,
+    "name": "Pokemon826",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 827,
+    "name": "Pokemon827",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 828,
+    "name": "Pokemon828",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 829,
+    "name": "Pokemon829",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 830,
+    "name": "Pokemon830",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 831,
+    "name": "Pokemon831",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 832,
+    "name": "Pokemon832",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 833,
+    "name": "Pokemon833",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 834,
+    "name": "Pokemon834",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 835,
+    "name": "Pokemon835",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 836,
+    "name": "Pokemon836",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 837,
+    "name": "Pokemon837",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 838,
+    "name": "Pokemon838",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 839,
+    "name": "Pokemon839",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 840,
+    "name": "Pokemon840",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 841,
+    "name": "Pokemon841",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 842,
+    "name": "Pokemon842",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 843,
+    "name": "Pokemon843",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 844,
+    "name": "Pokemon844",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 845,
+    "name": "Pokemon845",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 846,
+    "name": "Pokemon846",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 847,
+    "name": "Pokemon847",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 848,
+    "name": "Pokemon848",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 849,
+    "name": "Pokemon849",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 850,
+    "name": "Pokemon850",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 851,
+    "name": "Pokemon851",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 852,
+    "name": "Pokemon852",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 853,
+    "name": "Pokemon853",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 854,
+    "name": "Pokemon854",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 855,
+    "name": "Pokemon855",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 856,
+    "name": "Pokemon856",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 857,
+    "name": "Pokemon857",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 858,
+    "name": "Pokemon858",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 859,
+    "name": "Pokemon859",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 860,
+    "name": "Pokemon860",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 861,
+    "name": "Pokemon861",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 862,
+    "name": "Pokemon862",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 863,
+    "name": "Pokemon863",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 864,
+    "name": "Pokemon864",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 865,
+    "name": "Pokemon865",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 866,
+    "name": "Pokemon866",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 867,
+    "name": "Pokemon867",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 868,
+    "name": "Pokemon868",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 869,
+    "name": "Pokemon869",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 870,
+    "name": "Pokemon870",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 871,
+    "name": "Pokemon871",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 872,
+    "name": "Pokemon872",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 873,
+    "name": "Pokemon873",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 874,
+    "name": "Pokemon874",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 875,
+    "name": "Pokemon875",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 876,
+    "name": "Pokemon876",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 877,
+    "name": "Pokemon877",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 878,
+    "name": "Pokemon878",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 879,
+    "name": "Pokemon879",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 880,
+    "name": "Pokemon880",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 881,
+    "name": "Pokemon881",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 882,
+    "name": "Pokemon882",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 883,
+    "name": "Pokemon883",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 884,
+    "name": "Pokemon884",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 885,
+    "name": "Pokemon885",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 886,
+    "name": "Pokemon886",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 887,
+    "name": "Pokemon887",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 888,
+    "name": "Pokemon888",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 889,
+    "name": "Pokemon889",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 890,
+    "name": "Pokemon890",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 891,
+    "name": "Pokemon891",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 892,
+    "name": "Pokemon892",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 893,
+    "name": "Pokemon893",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 894,
+    "name": "Pokemon894",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 895,
+    "name": "Pokemon895",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 896,
+    "name": "Pokemon896",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 897,
+    "name": "Pokemon897",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 898,
+    "name": "Pokemon898",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 899,
+    "name": "Pokemon899",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 900,
+    "name": "Pokemon900",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 901,
+    "name": "Pokemon901",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 902,
+    "name": "Pokemon902",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 903,
+    "name": "Pokemon903",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 904,
+    "name": "Pokemon904",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 905,
+    "name": "Pokemon905",
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": "Galar"
+  },
+  {
+    "id": 906,
+    "name": "Pokemon906",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 907,
+    "name": "Pokemon907",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 908,
+    "name": "Pokemon908",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 909,
+    "name": "Pokemon909",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 910,
+    "name": "Pokemon910",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 911,
+    "name": "Pokemon911",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 912,
+    "name": "Pokemon912",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 913,
+    "name": "Pokemon913",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 914,
+    "name": "Pokemon914",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 915,
+    "name": "Pokemon915",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 916,
+    "name": "Pokemon916",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 917,
+    "name": "Pokemon917",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 918,
+    "name": "Pokemon918",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 919,
+    "name": "Pokemon919",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 920,
+    "name": "Pokemon920",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 921,
+    "name": "Pokemon921",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 922,
+    "name": "Pokemon922",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 923,
+    "name": "Pokemon923",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 924,
+    "name": "Pokemon924",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 925,
+    "name": "Pokemon925",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 926,
+    "name": "Pokemon926",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 927,
+    "name": "Pokemon927",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 928,
+    "name": "Pokemon928",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 929,
+    "name": "Pokemon929",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 930,
+    "name": "Pokemon930",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 931,
+    "name": "Pokemon931",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 932,
+    "name": "Pokemon932",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 933,
+    "name": "Pokemon933",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 934,
+    "name": "Pokemon934",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 935,
+    "name": "Pokemon935",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 936,
+    "name": "Pokemon936",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 937,
+    "name": "Pokemon937",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 938,
+    "name": "Pokemon938",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 939,
+    "name": "Pokemon939",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 940,
+    "name": "Pokemon940",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 941,
+    "name": "Pokemon941",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 942,
+    "name": "Pokemon942",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 943,
+    "name": "Pokemon943",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 944,
+    "name": "Pokemon944",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 945,
+    "name": "Pokemon945",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 946,
+    "name": "Pokemon946",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 947,
+    "name": "Pokemon947",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 948,
+    "name": "Pokemon948",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 949,
+    "name": "Pokemon949",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 950,
+    "name": "Pokemon950",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 951,
+    "name": "Pokemon951",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 952,
+    "name": "Pokemon952",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 953,
+    "name": "Pokemon953",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 954,
+    "name": "Pokemon954",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 955,
+    "name": "Pokemon955",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 956,
+    "name": "Pokemon956",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 957,
+    "name": "Pokemon957",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 958,
+    "name": "Pokemon958",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 959,
+    "name": "Pokemon959",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 960,
+    "name": "Pokemon960",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 961,
+    "name": "Pokemon961",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 962,
+    "name": "Pokemon962",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 963,
+    "name": "Pokemon963",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 964,
+    "name": "Pokemon964",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 965,
+    "name": "Pokemon965",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 966,
+    "name": "Pokemon966",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 967,
+    "name": "Pokemon967",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 968,
+    "name": "Pokemon968",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 969,
+    "name": "Pokemon969",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 970,
+    "name": "Pokemon970",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 971,
+    "name": "Pokemon971",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 972,
+    "name": "Pokemon972",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 973,
+    "name": "Pokemon973",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 974,
+    "name": "Pokemon974",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 975,
+    "name": "Pokemon975",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 976,
+    "name": "Pokemon976",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 977,
+    "name": "Pokemon977",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 978,
+    "name": "Pokemon978",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 979,
+    "name": "Pokemon979",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 980,
+    "name": "Pokemon980",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 981,
+    "name": "Pokemon981",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 982,
+    "name": "Pokemon982",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 983,
+    "name": "Pokemon983",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 984,
+    "name": "Pokemon984",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 985,
+    "name": "Pokemon985",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 986,
+    "name": "Pokemon986",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 987,
+    "name": "Pokemon987",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 988,
+    "name": "Pokemon988",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 989,
+    "name": "Pokemon989",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 990,
+    "name": "Pokemon990",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 991,
+    "name": "Pokemon991",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 992,
+    "name": "Pokemon992",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 993,
+    "name": "Pokemon993",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 994,
+    "name": "Pokemon994",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 995,
+    "name": "Pokemon995",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 996,
+    "name": "Pokemon996",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 997,
+    "name": "Pokemon997",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 998,
+    "name": "Pokemon998",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 999,
+    "name": "Pokemon999",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1000,
+    "name": "Pokemon1000",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1001,
+    "name": "Pokemon1001",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1002,
+    "name": "Pokemon1002",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1003,
+    "name": "Pokemon1003",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1004,
+    "name": "Pokemon1004",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1005,
+    "name": "Pokemon1005",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1006,
+    "name": "Pokemon1006",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1007,
+    "name": "Pokemon1007",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1008,
+    "name": "Pokemon1008",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1009,
+    "name": "Pokemon1009",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1010,
+    "name": "Pokemon1010",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1011,
+    "name": "Pokemon1011",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1012,
+    "name": "Pokemon1012",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1013,
+    "name": "Pokemon1013",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1014,
+    "name": "Pokemon1014",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1015,
+    "name": "Pokemon1015",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1016,
+    "name": "Pokemon1016",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1017,
+    "name": "Pokemon1017",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1018,
+    "name": "Pokemon1018",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1019,
+    "name": "Pokemon1019",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1020,
+    "name": "Pokemon1020",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1021,
+    "name": "Pokemon1021",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1022,
+    "name": "Pokemon1022",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1023,
+    "name": "Pokemon1023",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1024,
+    "name": "Pokemon1024",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  },
+  {
+    "id": 1025,
+    "name": "Pokemon1025",
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": "Paldea"
+  }
+]
