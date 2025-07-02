@@ -35,6 +35,10 @@ if (!isDemoMode) {
     auth = getAuth(app)
     db = getFirestore(app)
     googleProvider = new GoogleAuthProvider()
+    
+    // Configure Google provider with additional scopes if needed
+    googleProvider.addScope('profile')
+    googleProvider.addScope('email')
 
     console.log("✅ Firebase inicializado com sucesso")
   } catch (error) {

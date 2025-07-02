@@ -44,3 +44,11 @@ export interface LiveEvent {
   priority: "critical" | "high" | "medium" | "low"
   tags: string[]
 }
+
+export interface UserNotificationPreferences {
+  enabledTypes: string[]
+  favoritePokemon: string[]
+  regions: string[]
+  notifyBefore: number
+  enabledEvents: string[]
+}

@@ -12,15 +12,16 @@ import Image from "next/image"
 import { useRouter } from "next/navigation"
 
 export default function HomePage() {
-  const { user, loading, signInWithGoogle, logout, isDemoMode, error } = useAuth()
+  const { user, loading, signInWithGoogle, signInWithDemo, logout, clearDemoUser, isDemoMode, error } = useAuth()
   const [isLoggingIn, setIsLoggingIn] = useState(false)
+  const [isDemoLoggingIn, setIsDemoLoggingIn] = useState(false)
   const [showFirebaseSetup, setShowFirebaseSetup] = useState(false)
   const router = useRouter()
 
-  // Redirecionar para o dashboard se já estiver logado
+  // Redirect to dashboard if already logged in
   useEffect(() => {
     if (user && !loading) {
-      console.log("🔄 Utilizador já logado, redirecionando para dashboard")
+      console.log("🔄 User already logged in, redirecting to dashboard")
       router.push("/dashboard")
     }
   }, [user, loading, router])
@@ -28,19 +29,62 @@ export default function HomePage() {
   const handleLogin = async () => {
     setIsLoggingIn(true)
     try {
-      console.log("🔑 Iniciando login...")
+      console.log("🔑 Starting login...")
       await signInWithGoogle()
-      console.log("✅ Login bem-sucedido, redirecionando...")
+      console.log("✅ Login successful, redirecting...")
       router.push("/dashboard")
     } catch (error: any) {
-      console.error("❌ Erro no login:", error)
+      console.error("❌ Login error:", error)
+      // Don't automatically redirect to demo mode
     } finally {
       setIsLoggingIn(false)
     }
   }
 
-  const copyToClipboard = (text: string) => {
-    navigator.clipboard.writeText(text)
+  const handleDemoLogin = async () => {
+    setIsDemoLoggingIn(true)
+    try {
+      console.log("🎮 Starting demo login...")
+      await signInWithDemo()
+      console.log("✅ Demo login successful, redirecting...")
+      router.push("/dashboard")
+    } catch (error: any) {
+      console.error("❌ Demo login error:", error)
+    } finally {
+      setIsDemoLoggingIn(false)
+    }
+  }
+
+  const copyToClipboard = async (text: string) => {
+    try {
+      // Try to use the Clipboard API if available and allowed
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text)
+        console.log("Text copied to clipboard via Clipboard API")
+      } else {
+        // Fallback method for older browsers or non-HTTPS contexts
+        const textArea = document.createElement('textarea')
+        textArea.value = text
+        textArea.style.position = 'fixed'
+        textArea.style.left = '-999999px'
+        textArea.style.top = '-999999px'
+        document.body.appendChild(textArea)
+        textArea.focus()
+        textArea.select()
+        document.execCommand('copy')
+        textArea.remove()
+        console.log("Text copied to clipboard via fallback method")
+      }
+    } catch (error) {
+      console.warn("Failed to copy text to clipboard:", error)
+      // You could show a toast notification here instead
+    }
+  }
+
+  const handleClearAuth = () => {
+    clearDemoUser()
+    localStorage.clear() // Clear all localStorage data
+    console.log("🧹 All authentication data cleared")
   }
 
   const currentDomain = typeof window !== "undefined" ? window.location.origin : "localhost:3000"
@@ -56,7 +100,7 @@ export default function HomePage() {
               <Logo size="sm" variant="icon" />
             </div>
           </div>
-          <p className="text-slate-300">Carregando...</p>
+          <p className="text-slate-300">Loading...</p>
         </div>
       </div>
     )
@@ -64,7 +108,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-slate-600 flex flex-col relative">
-      {/* Background Pattern - usando CSS simples */}
+      {/* Background Pattern - using simple CSS */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-10 left-10 w-4 h-4 bg-white rounded-full"></div>
         <div className="absolute top-20 right-20 w-2 h-2 bg-white rounded-full"></div>
@@ -89,43 +133,71 @@ export default function HomePage() {
         <main className="flex-1 container mx-auto px-4 py-8 flex items-center justify-center">
           <div className="w-full max-w-md">
             <Tabs defaultValue={isDemoMode ? "demo" : "login"} className="w-full">
-              <TabsList className="grid w-full grid-cols-2 mb-8 bg-white/10 border-0">
+              <TabsList className="grid w-full grid-cols-2 mb-8 bg-white/10 border-0 p-1 rounded-lg backdrop-blur-sm">
                 <TabsTrigger
                   value="login"
                   disabled={isDemoMode}
-                  className="data-[state=active]:bg-white data-[state=active]:text-slate-900 text-white"
+                  className="
+                    relative overflow-hidden rounded-md px-4 py-2.5 text-sm font-medium
+                    transition-all duration-300 ease-in-out
+                    text-white/80 hover:text-white hover:bg-white/5
+                    data-[state=active]:bg-white data-[state=active]:text-slate-900 
+                    data-[state=active]:shadow-lg data-[state=active]:shadow-white/10
+                    data-[state=active]:scale-[0.98] data-[state=active]:font-semibold
+                    disabled:opacity-50 disabled:cursor-not-allowed
+                    before:absolute before:inset-0 before:bg-gradient-to-r 
+                    before:from-transparent before:via-white/5 before:to-transparent
+                    before:translate-x-[-100%] hover:before:translate-x-[100%]
+                    before:transition-transform before:duration-700
+                  "
                 >
-                  Login Google
+                  Google Login
                 </TabsTrigger>
                 <TabsTrigger
                   value="demo"
-                  className="data-[state=active]:bg-white data-[state=active]:text-slate-900 text-white"
+                  className="
+                    relative overflow-hidden rounded-md px-4 py-2.5 text-sm font-medium
+                    transition-all duration-300 ease-in-out
+                    text-white/80 hover:text-white hover:bg-white/5
+                    data-[state=active]:bg-white data-[state=active]:text-slate-900 
+                    data-[state=active]:shadow-lg data-[state=active]:shadow-white/10
+                    data-[state=active]:scale-[0.98] data-[state=active]:font-semibold
+                    before:absolute before:inset-0 before:bg-gradient-to-r 
+                    before:from-transparent before:via-white/5 before:to-transparent
+                    before:translate-x-[-100%] hover:before:translate-x-[100%]
+                    before:transition-transform before:duration-700
+                  "
                 >
-                  Modo Demo
+                  Demo Mode
                 </TabsTrigger>
               </TabsList>
 
               <TabsContent value="login">
-                <Card className="border-0 shadow-2xl bg-white">
+                <Card className="
+                  border-0 shadow-2xl bg-white
+                  transition-all duration-300 ease-in-out
+                  hover:shadow-3xl hover:shadow-white/20 hover:scale-[1.01]
+                  animate-in fade-in-0 zoom-in-95 duration-300
+                ">
                   <CardHeader className="pb-2 text-center">
-                    <div className="w-20 h-20 mx-auto mb-4 relative">
+                    <div className="w-20 h-20 mx-auto mb-4 relative transform transition-transform duration-300 hover:scale-110">
                       <Image
                         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
                         alt="Pikachu"
                         width={100}
                         height={100}
-                        className="drop-shadow-md"
+                        className="drop-shadow-md transition-all duration-300 hover:drop-shadow-lg"
                       />
                     </div>
-                    <h1 className="text-2xl font-bold text-slate-900">Bem-vindo, Treinador!</h1>
-                    <p className="text-sm text-slate-600">Faça login para acessar sua Pokédex pessoal</p>
+                    <h1 className="text-2xl font-bold text-slate-900">Welcome, Trainer!</h1>
+                    <p className="text-sm text-slate-600">Sign in to access your personal Pokédex</p>
                   </CardHeader>
 
                   <CardContent className="space-y-4">
                     {error && (
                       <Alert variant="destructive">
                         <AlertCircle className="h-4 w-4" />
-                        <AlertTitle>Erro de Autenticação</AlertTitle>
+                        <AlertTitle>Authentication Error</AlertTitle>
                         <AlertDescription className="mt-2">
                           {error}
                           {error.includes("unauthorized-domain") && (
@@ -137,7 +209,7 @@ export default function HomePage() {
                                 className="w-full"
                               >
                                 <Settings className="h-4 w-4 mr-2" />
-                                Ver instruções de configuração
+                                View configuration instructions
                               </Button>
                             </div>
                           )}
@@ -148,12 +220,12 @@ export default function HomePage() {
                     {showFirebaseSetup && (
                       <Alert>
                         <Settings className="h-4 w-4" />
-                        <AlertTitle>Configuração do Firebase</AlertTitle>
+                        <AlertTitle>Firebase Configuration</AlertTitle>
                         <AlertDescription className="mt-2 space-y-3">
-                          <p className="text-sm">Para corrigir o erro de domínio não autorizado:</p>
+                          <p className="text-sm">To fix the unauthorized domain error:</p>
                           <ol className="text-sm space-y-2 list-decimal list-inside">
                             <li>
-                              Acesse o{" "}
+                              Access the{" "}
                               <a
                                 href="https://console.firebase.google.com"
                                 target="_blank"
@@ -164,15 +236,15 @@ export default function HomePage() {
                               </a>
                             </li>
                             <li>
-                              Selecione seu projeto:{" "}
+                              Select your project:{" "}
                               <code className="bg-slate-100 px-1 rounded">mypokedexgo-356ab</code>
                             </li>
                             <li>
-                              Vá para <strong>Authentication</strong> → <strong>Settings</strong> →{" "}
+                              Go to <strong>Authentication</strong> → <strong>Settings</strong> →{" "}
                               <strong>Authorized domains</strong>
                             </li>
                             <li>
-                              Adicione este domínio:
+                              Add this domain:
                               <div className="flex items-center gap-2 mt-1">
                                 <code className="bg-slate-100 px-2 py-1 rounded text-xs flex-1">{currentDomain}</code>
                                 <Button
@@ -185,16 +257,16 @@ export default function HomePage() {
                                 </Button>
                               </div>
                             </li>
-                            <li>Salve as alterações e tente fazer login novamente</li>
+                            <li>Save the changes and try signing in again</li>
                           </ol>
                         </AlertDescription>
                       </Alert>
                     )}
 
                     {!isDemoMode && !error && (
-                      <Alert variant="success" className="bg-green-50 text-green-800 border-green-200">
+                      <Alert variant="default" className="bg-green-50 text-green-800 border-green-200">
                         <CheckCircle2 className="h-4 w-4 text-green-600" />
-                        <AlertDescription>Firebase configurado e pronto para uso!</AlertDescription>
+                        <AlertDescription>Firebase configured and ready to use!</AlertDescription>
                       </Alert>
                     )}
 
@@ -202,14 +274,25 @@ export default function HomePage() {
                       <Alert>
                         <AlertCircle className="h-4 w-4" />
                         <AlertDescription>
-                          Firebase não configurado. Configure as variáveis de ambiente ou use o modo demo.
+                          Firebase not configured. Set up environment variables or use demo mode.
                         </AlertDescription>
                       </Alert>
                     )}
 
                     <Button
                       onClick={handleLogin}
-                      className="w-full h-12 gap-2 bg-slate-900 hover:bg-slate-800 text-white"
+                      className="
+                        group relative w-full h-12 gap-2 overflow-hidden
+                        bg-white hover:bg-gray-50 text-gray-900 border border-gray-300
+                        transition-all duration-300 ease-in-out
+                        hover:shadow-lg hover:shadow-gray-200/50 hover:scale-[1.02]
+                        active:scale-[0.98] active:duration-75
+                        disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100
+                        before:absolute before:inset-0 before:bg-gradient-to-r 
+                        before:from-transparent before:via-gray-100/50 before:to-transparent
+                        before:translate-x-[-100%] hover:before:translate-x-[100%]
+                        before:transition-transform before:duration-700
+                      "
                       disabled={isLoggingIn || isDemoMode}
                     >
                       {isLoggingIn ? (
@@ -234,79 +317,94 @@ export default function HomePage() {
                           />
                         </svg>
                       )}
-                      {isLoggingIn ? "Entrando..." : "Entrar com Google"}
+                      {isLoggingIn ? "Signing in..." : "Sign in with Google"}
                     </Button>
 
                     {isDemoMode && (
                       <p className="text-xs text-center text-slate-600">
-                        O login com Google está desabilitado no modo demo.
+                        Google login is disabled in demo mode.
                       </p>
                     )}
                   </CardContent>
 
                   <CardFooter className="text-xs text-center text-slate-600 flex flex-col">
-                    <p>Ao fazer login, você aceita nossos termos de serviço e política de privacidade.</p>
+                    <p>By signing in, you accept our terms of service and privacy policy.</p>
                   </CardFooter>
                 </Card>
               </TabsContent>
 
               <TabsContent value="demo">
-                <Card className="border-0 shadow-2xl bg-white">
+                <Card className="
+                  border-0 shadow-2xl bg-white
+                  transition-all duration-300 ease-in-out
+                  hover:shadow-3xl hover:shadow-amber-500/10 hover:scale-[1.01]
+                  animate-in fade-in-0 zoom-in-95 duration-300
+                ">
                   <CardHeader className="pb-2 text-center">
-                    <div className="w-20 h-20 mx-auto mb-4 relative">
+                    <div className="w-20 h-20 mx-auto mb-4 relative transform transition-transform duration-300 hover:scale-110">
                       <Image
                         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
                         alt="Eevee"
                         width={100}
                         height={100}
-                        className="drop-shadow-md"
+                        className="drop-shadow-md transition-all duration-300 hover:drop-shadow-lg"
                       />
                     </div>
-                    <h1 className="text-2xl font-bold text-slate-900">Modo Demonstração</h1>
-                    <p className="text-sm text-slate-600">Experimente todas as funcionalidades sem criar uma conta</p>
+                    <h1 className="text-2xl font-bold text-slate-900">Demo Mode</h1>
+                    <p className="text-sm text-slate-600">Try all features without creating an account</p>
                   </CardHeader>
 
                   <CardContent className="space-y-4">
                     <div className="space-y-2">
                       <div className="flex items-center gap-2">
                         <CheckCircle2 className="h-4 w-4 text-green-600" />
-                        <p className="text-sm text-slate-700">Explore a Pokédex completa</p>
+                        <p className="text-sm text-slate-700">Explore the complete Pokédex</p>
                       </div>
                       <div className="flex items-center gap-2">
                         <CheckCircle2 className="h-4 w-4 text-green-600" />
-                        <p className="text-sm text-slate-700">Marque Pokémons como capturados</p>
+                        <p className="text-sm text-slate-700">Mark Pokémon as caught</p>
                       </div>
                       <div className="flex items-center gap-2">
                         <CheckCircle2 className="h-4 w-4 text-green-600" />
-                        <p className="text-sm text-slate-700">Veja estatísticas e comparações</p>
+                        <p className="text-sm text-slate-700">View statistics and comparisons</p>
                       </div>
                       <div className="flex items-center gap-2">
                         <CheckCircle2 className="h-4 w-4 text-green-600" />
-                        <p className="text-sm text-slate-700">Teste todas as funcionalidades</p>
+                        <p className="text-sm text-slate-700">Test all features</p>
                       </div>
                     </div>
 
-                    <Alert variant="warning" className="bg-amber-50 text-amber-800 border-amber-200">
+                    <Alert variant="default" className="bg-amber-50 text-amber-800 border-amber-200">
                       <AlertCircle className="h-4 w-4 text-amber-600" />
                       <AlertDescription>
-                        Seus dados serão salvos apenas localmente neste dispositivo e podem ser perdidos ao limpar o
-                        navegador.
+                        Your data will be saved only locally on this device and may be lost when clearing the browser.
                       </AlertDescription>
                     </Alert>
 
                     <Button
-                      onClick={handleLogin}
-                      className="w-full h-12 bg-amber-500 hover:bg-amber-600 text-white"
-                      disabled={isLoggingIn}
+                      onClick={handleDemoLogin}
+                      className="
+                        group relative w-full h-12 overflow-hidden
+                        bg-amber-500 hover:bg-amber-600 text-white
+                        transition-all duration-300 ease-in-out
+                        hover:shadow-lg hover:shadow-amber-500/30 hover:scale-[1.02]
+                        active:scale-[0.98] active:duration-75
+                        disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100
+                        before:absolute before:inset-0 before:bg-gradient-to-r 
+                        before:from-transparent before:via-amber-300/30 before:to-transparent
+                        before:translate-x-[-100%] hover:before:translate-x-[100%]
+                        before:transition-transform before:duration-700
+                      "
+                      disabled={isDemoLoggingIn}
                     >
-                      {isLoggingIn ? (
+                      {isDemoLoggingIn ? (
                         <>
                           <Loader2 className="h-4 w-4 animate-spin mr-2" />
-                          Iniciando...
+                          Starting...
                         </>
                       ) : (
                         <>
-                          Iniciar Modo Demo
+                          Start Demo Mode
                           <ChevronRight className="h-4 w-4 ml-2" />
                         </>
                       )}
@@ -319,8 +417,20 @@ export default function HomePage() {
         </main>
 
         {/* Footer */}
-        <footer className="relative z-10 container mx-auto px-4 py-6 text-center text-white/60 text-sm">
-          <p>© 2025 MyPokédex GO. Não afiliado à Nintendo ou The Pokémon Company.</p>
+        <footer className="relative z-10 container mx-auto px-4 py-6 text-center text-white/60 text-sm space-y-3">
+          <p>© 2025 MyPokédex GO. Not affiliated with Nintendo or The Pokémon Company.</p>
+          
+          {/* Debug Button - Only show if there's a persistent user or error */}
+          {(user || error) && (
+            <Button
+              onClick={handleClearAuth}
+              variant="outline"
+              size="sm"
+              className="bg-white/10 border-white/20 text-white/80 hover:bg-white/20 text-xs"
+            >
+              Clear Authentication Data
+            </Button>
+          )}
         </footer>
       </div>
 

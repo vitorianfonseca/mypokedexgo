@@ -274,8 +274,8 @@ export function AchievementsView() {
   }
 
   return (
-    <div className="space-y-6 py-6">
-      <h2 className="text-2xl font-bold text-slate-800">Minhas Conquistas</h2>
+    <div className="space-y-6 py-2">
+      <h2 className="text-3xl font-bold text-white">Minhas Conquistas</h2>
       {achievementCategories.map((category) => (
         <Card key={category.id} className="overflow-hidden">
           <CardHeader

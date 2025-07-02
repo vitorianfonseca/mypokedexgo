@@ -42,7 +42,9 @@ interface AuthContextType {
   user: User | null
   loading: boolean
   signInWithGoogle: () => Promise<void>
+  signInWithDemo: () => Promise<void>
   logout: () => Promise<void>
+  clearDemoUser: () => void
   updateProfile: (profile: { displayName?: string; photoURL?: string | null }) => Promise<void>
   isDemoMode: boolean
   error: string | null
@@ -149,14 +151,28 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         errorMessage = "Login cancelado pelo utilizador."
       } else if (error.code === "auth/network-request-failed") {
         errorMessage = "Erro de rede. Verifique sua conexão."
+      } else if (error.code === "auth/configuration-not-found") {
+        errorMessage = "Configuração do Firebase não encontrada."
       }
 
       setError(errorMessage)
+      
+      // NÃO criar demo user automaticamente em caso de erro
+      // Deixar o usuário decidir o que fazer
+      throw error
+    } finally {
+      setLoading(false)
+    }
+  }
 
-      // Fallback para modo demo se Firebase falhar
-      console.log("🎮 Fallback para modo demo devido a erro")
+  const signInWithDemo = async () => {
+    console.log("🎮 Iniciando login demo...")
+    setError(null)
+    setLoading(true)
+
+    try {
       const mockUser: User = {
-        uid: "demo-user-fallback",
+        uid: "demo-user-" + Date.now(),
         displayName: "Demo Trainer",
         email: "demo@mypokedex.go",
         photoURL: "https://api.dicebear.com/7.x/avataaars/svg?seed=demo",
@@ -167,30 +183,46 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
       setUser(mockUser)
       localStorage.setItem("demo-user", JSON.stringify(mockUser))
-      console.log("✅ Utilizador demo criado como fallback")
+      console.log("✅ Utilizador demo criado e salvo:", mockUser.displayName)
+    } catch (error: any) {
+      console.error("❌ Erro ao criar usuário demo:", error)
+      setError("Erro ao criar usuário demo")
     } finally {
       setLoading(false)
     }
   }
 
+  const clearDemoUser = () => {
+    console.log("🧹 Clearing demo user data...")
+    setUser(null)
+    localStorage.removeItem("demo-user")
+    setError(null)
+  }
+
   const logout = async () => {
     setError(null)
+    setLoading(true)
     console.log("🚪 Fazendo logout...")
 
-    if (isDemoMode || !auth || !signOut) {
+    try {
+      // Limpar dados locais primeiro
       setUser(null)
       localStorage.removeItem("demo-user")
-      console.log("✅ Logout demo concluído")
-      return
-    }
-
-    try {
-      await signOut(auth)
-      console.log("✅ Logout Firebase concluído")
+      
+      if (!isDemoMode && auth && signOut) {
+        // Tentar fazer logout do Firebase
+        await signOut(auth)
+        console.log("✅ Logout Firebase concluído")
+      } else {
+        console.log("✅ Logout demo concluído")
+      }
     } catch (error: any) {
       console.error("❌ Erro no logout:", error)
-      // Forçar logout local mesmo se falhar
+      // Mesmo com erro, garantir que o estado local seja limpo
       setUser(null)
+      localStorage.removeItem("demo-user")
+    } finally {
+      setLoading(false)
     }
   }
 
@@ -241,7 +273,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     user,
     loading,
     signInWithGoogle,
+    signInWithDemo,
     logout,
+    clearDemoUser,
     updateProfile: updateUserProfile,
     isDemoMode: isDemoMode || !auth,
     error,

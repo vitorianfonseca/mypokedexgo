@@ -135,14 +135,14 @@ export function PokemonDetails({ pokemon, isOpen, onClose }: PokemonDetailsProps
             className={`p-6 rounded-lg bg-gradient-to-r ${typeColor.replace("bg-", "from-")}-100 to-white dark:to-gray-800`}
           >
             <div className="grid md:grid-cols-2 gap-6">
-              {/* Pokemon Image - Larger and without circle */}
+              {/* Pokemon Image - Larger to match info height */}
               <div className="text-center">
                 <div className="relative inline-block">
                   <Image
                     src={showShiny && status.shiny ? pokemon.shinyImageUrl : pokemon.imageUrl}
                     alt={pokemon.name}
-                    width={200}
-                    height={200}
+                    width={300}
+                    height={300}
                     className="pixelated"
                     crossOrigin="anonymous"
                   />

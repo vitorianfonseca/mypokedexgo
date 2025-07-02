@@ -1,5 +1,6 @@
 // Dados de Pokémon usando apenas informações factuais e fontes legais
 import { validatePokemonData } from "@/lib/legal"
+import { correctPokemonTypes, correctPokemonNames } from "./correctPokemonData"
 
 export interface Pokemon {
   id: number
@@ -383,14 +384,14 @@ const generation1Pokemon: Pokemon[] = [
 function generateLegalPokemonData(): Pokemon[] {
   const pokemonList: Pokemon[] = [...generation1Pokemon]
 
-  // Gerar dados para mais Pokémons usando apenas informações factuais
-  for (let id = 2; id <= 1025; id++) {
-    // Pular os que já temos
+  // Gerar dados para TODOS os Pokémons restantes (1-1025)
+  for (let id = 1; id <= 1025; id++) {
+    // Pular os que já temos manualmente definidos
     if (pokemonList.find((p) => p.id === id)) continue
 
     const pokemon: Pokemon = {
       id,
-      name: `Pokemon${id}`, // Nome genérico para evitar problemas de marca
+      name: correctPokemonNames[id] || `Pokemon${id}`, // Usar nome correto se disponível
       types: generateTypes(id),
       generation: getGeneration(id),
       region: getRegion(getGeneration(id)),
@@ -437,7 +438,7 @@ function getGeneration(id: number): number {
 }
 
 function getRegion(generation: number): string {
-  const regions = {
+  const regions: Record<number, string> = {
     1: "Kanto",
     2: "Johto",
     3: "Hoenn",
@@ -452,7 +453,13 @@ function getRegion(generation: number): string {
 }
 
 function generateTypes(id: number): string[] {
-  const typePatterns = [
+  // Usar tipos corretos se disponível, senão usar um padrão mais realista
+  if (correctPokemonTypes[id]) {
+    return correctPokemonTypes[id]
+  }
+  
+  // Para Pokémon que não temos dados, usar uma distribuição mais realista
+  const realisticTypePatterns = [
     ["Normal"],
     ["Fire"],
     ["Water"],
@@ -471,8 +478,21 @@ function generateTypes(id: number): string[] {
     ["Dark"],
     ["Steel"],
     ["Fairy"],
+    ["Grass", "Poison"],
+    ["Fire", "Flying"],
+    ["Water", "Ground"],
+    ["Electric", "Flying"],
+    ["Rock", "Ground"],
+    ["Bug", "Flying"],
+    ["Ghost", "Poison"],
+    ["Ice", "Water"],
+    ["Fighting", "Steel"],
+    ["Psychic", "Flying"],
+    ["Dark", "Flying"],
+    ["Dragon", "Flying"],
   ]
-  return typePatterns[id % typePatterns.length]
+  
+  return realisticTypePatterns[id % realisticTypePatterns.length]
 }
 
 function generateStats(id: number) {

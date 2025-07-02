@@ -5,6 +5,7 @@ import { useAuth } from "@/contexts/AuthContext"
 import { usePokedex } from "@/contexts/PokedexContext"
 import { StatsChart } from "@/components/StatsChart"
 import { GenerationStats } from "@/components/GenerationStats"
+import { AdvancedStats } from "@/components/AdvancedStats"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -38,12 +39,12 @@ import { useRouter } from "next/navigation"
 import Image from "next/image"
 import { LegalFooter } from "@/components/LegalFooter"
 import PokedexView from "@/components/PokedexView"
-import { EventsView } from "@/components/EventsView" // Nova importação
-import { AchievementsView } from "@/components/AchievementsView" // Nova importação
+import { EventsView } from "@/components/EventsView"
+import { AchievementsView } from "@/components/AchievementsView"
 
 export default function DashboardPage() {
   const { user, logout, loading, isDemoMode } = useAuth()
-  const { capturedPokemon, shinyCaptured, luckyCaptured, getStats } = usePokedex()
+  const { getStats, pokemonStatus } = usePokedex()
   const router = useRouter()
   const [featuredPokemon, setFeaturedPokemon] = useState<number[]>([1, 25, 150, 6, 9, 144])
   // events e isLoadingEvents não são mais gerenciados aqui
@@ -59,10 +60,16 @@ export default function DashboardPage() {
   }, [user, loading, router])
 
   useEffect(() => {
-    // loadEvents não é mais chamado aqui
+    // Restaurar aba ativa do localStorage ao carregar
+    const savedTab = localStorage.getItem("dashboard-active-tab")
+    if (savedTab && ["overview", "pokedex", "events", "stats", "achievements"].includes(savedTab)) {
+      setActiveTab(savedTab)
+    }
+    
+    // Animação mais suave e gradual
     const timer = setTimeout(() => {
       setAnimateTabsContainer(true)
-    }, 100)
+    }, 150)
     return () => clearTimeout(timer)
   }, [])
 
@@ -70,10 +77,10 @@ export default function DashboardPage() {
 
   const stats = getStats()
   const totalPokemon = pokemonData?.length || 0
-  const capturedCount = capturedPokemon?.length || 0
-  const shinyCount = shinyCaptured?.length || 0
-  const luckyCount = luckyCaptured?.length || 0
-  const completionPercentage = totalPokemon > 0 ? Math.round((capturedCount / totalPokemon) * 100) : 0
+  const capturedCount = stats.totalCaught
+  const shinyCount = stats.totalShiny
+  const luckyCount = stats.totalLucky
+  const completionPercentage = stats.completionPercentage
 
   const featuredPokemonData = featuredPokemon.map((id) => pokemonData?.find((p) => p.id === id)).filter(Boolean)
 
@@ -118,7 +125,8 @@ export default function DashboardPage() {
 
   const handleTabNavigation = (value: string) => {
     setActiveTab(value)
-    // Nenhuma navegação por router.push aqui, apenas muda a aba ativa
+    // Salvar aba ativa no localStorage para manter após refresh
+    localStorage.setItem("dashboard-active-tab", value)
   }
 
   return (
@@ -151,58 +159,61 @@ export default function DashboardPage() {
         </div>
       </header>
 
-      <div
-        className={`bg-white/80 backdrop-blur-sm border-b border-slate-300 shadow-sm sticky top-[73px] z-40 
-                  transition-all duration-500 ease-out ${
-                    animateTabsContainer ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full"
-                  }`}
-      >
+      <div className="bg-slate-600 dark:bg-slate-900">
+        {/* Navigation Tabs */}
+        <div
+          className={`bg-slate-600/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-400/30 shadow-lg sticky top-[73px] z-40 
+                    transition-all duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] ${
+                      animateTabsContainer ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-8"
+                    }`}
+        >
+          <div className="container mx-auto px-4 py-2">
+            <Tabs value={activeTab} onValueChange={handleTabNavigation} className="w-full">
+              <TabsList className="bg-white/90 backdrop-blur-sm border-0 rounded-2xl shadow-lg p-1 justify-between w-full grid grid-cols-5 h-auto gap-0 relative">
+                <TabsTrigger
+                  value="overview"
+                  className="data-[state=active]:bg-white data-[state=active]:shadow-xl data-[state=active]:text-slate-800 data-[state=active]:scale-[1.02] data-[state=active]:z-10 data-[state=inactive]:bg-transparent data-[state=inactive]:text-slate-600 data-[state=inactive]:hover:text-slate-700 data-[state=inactive]:hover:scale-[1.01] data-[state=inactive]:hover:bg-white/30 rounded-xl px-3 py-2.5 text-sm font-medium transition-all duration-500 ease-[cubic-bezier(0.34,1.56,0.64,1)] flex-1 text-center relative overflow-hidden"
+                >
+                  <BarChart3 className="h-4 w-4 mr-1.5 inline-block transition-all duration-300" />
+                  <span className="relative z-10">Dashboard</span>
+                </TabsTrigger>
+                <TabsTrigger
+                  value="pokedex"
+                  className="data-[state=active]:bg-white data-[state=active]:shadow-xl data-[state=active]:text-slate-800 data-[state=active]:scale-[1.02] data-[state=active]:z-10 data-[state=inactive]:bg-transparent data-[state=inactive]:text-slate-600 data-[state=inactive]:hover:text-slate-700 data-[state=inactive]:hover:scale-[1.01] data-[state=inactive]:hover:bg-white/30 rounded-xl px-3 py-2.5 text-sm font-medium transition-all duration-500 ease-[cubic-bezier(0.34,1.56,0.64,1)] flex-1 text-center relative overflow-hidden"
+                >
+                  <Book className="h-4 w-4 mr-1.5 inline-block transition-all duration-300" />
+                  <span className="relative z-10">Pokédx</span>
+                </TabsTrigger>
+                <TabsTrigger
+                  value="events"
+                  className="data-[state=active]:bg-white data-[state=active]:shadow-xl data-[state=active]:text-slate-800 data-[state=active]:scale-[1.02] data-[state=active]:z-10 data-[state=inactive]:bg-transparent data-[state=inactive]:text-slate-600 data-[state=inactive]:hover:text-slate-700 data-[state=inactive]:hover:scale-[1.01] data-[state=inactive]:hover:bg-white/30 rounded-xl px-3 py-2.5 text-sm font-medium transition-all duration-500 ease-[cubic-bezier(0.34,1.56,0.64,1)] flex-1 text-center relative overflow-hidden"
+                >
+                  <Calendar className="h-4 w-4 mr-1.5 inline-block transition-all duration-300" />
+                  <span className="relative z-10">Eventos</span>
+                </TabsTrigger>
+                <TabsTrigger
+                  value="stats"
+                  className="data-[state=active]:bg-white data-[state=active]:shadow-xl data-[state=active]:text-slate-800 data-[state=active]:scale-[1.02] data-[state=active]:z-10 data-[state=inactive]:bg-transparent data-[state=inactive]:text-slate-600 data-[state=inactive]:hover:text-slate-700 data-[state=inactive]:hover:scale-[1.01] data-[state=inactive]:hover:bg-white/30 rounded-xl px-3 py-2.5 text-sm font-medium transition-all duration-500 ease-[cubic-bezier(0.34,1.56,0.64,1)] flex-1 text-center relative overflow-hidden"
+                >
+                  <TrendingUp className="h-4 w-4 mr-1.5 inline-block transition-all duration-300" />
+                  <span className="relative z-10">Estatísticas</span>
+                </TabsTrigger>
+                <TabsTrigger
+                  value="achievements"
+                  className="data-[state=active]:bg-white data-[state=active]:shadow-xl data-[state=active]:text-slate-800 data-[state=active]:scale-[1.02] data-[state=active]:z-10 data-[state=inactive]:bg-transparent data-[state=inactive]:text-slate-600 data-[state=inactive]:hover:text-slate-700 data-[state=inactive]:hover:scale-[1.01] data-[state=inactive]:hover:bg-white/30 rounded-xl px-3 py-2.5 text-sm font-medium transition-all duration-500 ease-[cubic-bezier(0.34,1.56,0.64,1)] flex-1 text-center relative overflow-hidden"
+                >
+                  <Activity className="h-4 w-4 mr-1.5 inline-block transition-all duration-300" />
+                  <span className="relative z-10">Conquistas</span>
+                </TabsTrigger>
+              </TabsList>
+            </Tabs>
+          </div>
+        </div>
+
+        {/* Content Area */}
         <div className="container mx-auto px-4">
           <Tabs value={activeTab} onValueChange={handleTabNavigation} className="w-full">
-            <TabsList className="bg-transparent p-0 justify-between w-full grid grid-cols-5">
-              <TabsTrigger
-                value="overview"
-                className="data-[state=active]:border-slate-800 data-[state=active]:text-slate-800 data-[state=inactive]:text-slate-500 data-[state=inactive]:border-transparent border-b-2 rounded-none px-2 py-3 text-sm font-medium transition-colors duration-200 hover:text-slate-700 flex-1 text-center"
-              >
-                <BarChart3 className="h-4 w-4 mr-1.5 inline-block" />
-                Dashboard
-              </TabsTrigger>
-              <TabsTrigger
-                value="pokedex"
-                className="data-[state=active]:border-slate-800 data-[state=active]:text-slate-800 data-[state=inactive]:text-slate-500 data-[state=inactive]:border-transparent border-b-2 rounded-none px-2 py-3 text-sm font-medium transition-colors duration-200 hover:text-slate-700 flex-1 text-center"
-              >
-                <Book className="h-4 w-4 mr-1.5 inline-block" />
-                Pokédex
-              </TabsTrigger>
-              <TabsTrigger
-                value="events"
-                className="data-[state=active]:border-slate-800 data-[state=active]:text-slate-800 data-[state=inactive]:text-slate-500 data-[state=inactive]:border-transparent border-b-2 rounded-none px-2 py-3 text-sm font-medium transition-colors duration-200 hover:text-slate-700 flex-1 text-center"
-              >
-                <Calendar className="h-4 w-4 mr-1.5 inline-block" />
-                Eventos
-              </TabsTrigger>
-              <TabsTrigger
-                value="stats"
-                className="data-[state=active]:border-slate-800 data-[state=active]:text-slate-800 data-[state=inactive]:text-slate-500 data-[state=inactive]:border-transparent border-b-2 rounded-none px-2 py-3 text-sm font-medium transition-colors duration-200 hover:text-slate-700 flex-1 text-center"
-              >
-                <TrendingUp className="h-4 w-4 mr-1.5 inline-block" />
-                Estatísticas
-              </TabsTrigger>
-              <TabsTrigger
-                value="achievements"
-                className="data-[state=active]:border-slate-800 data-[state=active]:text-slate-800 data-[state=inactive]:text-slate-500 data-[state=inactive]:border-transparent border-b-2 rounded-none px-2 py-3 text-sm font-medium transition-colors duration-200 hover:text-slate-700 flex-1 text-center"
-              >
-                <Activity className="h-4 w-4 mr-1.5 inline-block" />
-                Conquistas
-              </TabsTrigger>
-            </TabsList>
-          </Tabs>
-        </div>
-      </div>
-
-      <div className="container mx-auto px-4">
-        <Tabs value={activeTab} onValueChange={handleTabNavigation} className="w-full">
-          <TabsContent value="overview" className="mt-6">
+            <TabsContent value="overview" className="pt-2">
             {/* Conteúdo do Overview ... (igual ao anterior) */}
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
               <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-white border-slate-200">
@@ -330,7 +341,7 @@ export default function DashboardPage() {
                 <div className="grid grid-cols-3 md:grid-cols-6 gap-3">
                   {featuredPokemonData.map((pokemon) => {
                     if (!pokemon) return null
-                    const isCaught = capturedPokemon?.some((p) => p.id === pokemon.id) || false
+                    const isCaught = pokemonStatus[pokemon.id]?.caught || false
 
                     return (
                       <Link key={pokemon.id} href="/pokedex">
@@ -371,97 +382,102 @@ export default function DashboardPage() {
             </div>
           </TabsContent>
 
-          <TabsContent value="pokedex" className="mt-6">
+          <TabsContent value="pokedex" className="pt-2">
             <PokedexView />
           </TabsContent>
 
-          <TabsContent value="events" className="mt-6">
+          <TabsContent value="events" className="pt-2">
             <EventsView />
           </TabsContent>
 
-          <TabsContent value="stats" className="mt-6">
-            {/* Conteúdo da aba Estatísticas permanece o mesmo por enquanto */}
-            <div className="py-6">
-              <h2 className="text-2xl font-bold mb-6 text-slate-800">Estatísticas Detalhadas</h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <Card className="bg-white border-slate-200">
-                  <CardHeader className="pb-3">
-                    <CardTitle className="text-lg text-slate-800">Progresso Geral</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="space-y-3">
-                      <div className="flex justify-between">
-                        <span className="text-slate-600">Capturados:</span>
-                        <span className="font-semibold text-slate-800">
-                          {capturedCount}/{totalPokemon}
-                        </span>
+          <TabsContent value="stats" className="pt-2">
+            <div className="py-2">
+              <h2 className="text-3xl font-bold mb-6 text-white">Estatísticas Detalhadas</h2>
+              
+              {/* Stats Overview Cards */}
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+                <Card className="bg-white/95 dark:bg-slate-800/95 backdrop-blur-sm border border-slate-200 dark:border-slate-700">
+                  <CardContent className="p-4">
+                    <div className="flex items-center gap-3">
+                      <div className="p-2 bg-green-100 dark:bg-green-900/20 rounded-lg">
+                        <Trophy className="w-5 h-5 text-green-600" />
                       </div>
-                      <div className="w-full bg-slate-200 rounded-full h-2">
-                        <div
-                          className="bg-slate-800 h-2 rounded-full transition-all duration-500"
-                          style={{ width: `${completionPercentage}%` }}
-                        />
-                      </div>
-                      <p className="text-sm text-slate-600">{completionPercentage}% completo</p>
-                    </div>
-                  </CardContent>
-                </Card>
-                <Card className="bg-white border-slate-200">
-                  <CardHeader className="pb-3">
-                    <CardTitle className="text-lg text-slate-800">Coleções Especiais</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="space-y-3">
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-2">
-                          <div className="h-6 w-6 bg-yellow-100 rounded-full flex items-center justify-center">
-                            <Sparkles className="h-3 w-3 text-yellow-600" />
-                          </div>
-                          <span className="text-slate-700">Shinys</span>
-                        </div>
-                        <Badge className="bg-yellow-500 text-white">{shinyCount}</Badge>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-2">
-                          <div className="h-6 w-6 bg-orange-100 rounded-full flex items-center justify-center">
-                            <Star className="h-3 w-3 text-orange-600" />
-                          </div>
-                          <span className="text-slate-700">Lucky</span>
-                        </div>
-                        <Badge className="bg-orange-500 text-white">{luckyCount}</Badge>
+                      <div>
+                        <p className="text-sm text-slate-600 dark:text-slate-400">Total Capturados</p>
+                        <p className="text-2xl font-bold text-slate-800 dark:text-white">{capturedCount}</p>
+                        <p className="text-xs text-slate-500">de {totalPokemon}</p>
                       </div>
                     </div>
                   </CardContent>
                 </Card>
-                <Card className="bg-white border-slate-200">
-                  <CardHeader className="pb-3">
-                    <CardTitle className="text-lg text-slate-800">Conquistas Recentes (Exemplo)</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="space-y-3">
-                      <div className="flex items-center gap-2">
-                        <div className="h-6 w-6 bg-slate-100 rounded-full flex items-center justify-center">
-                          <Award className="h-3 w-3 text-slate-700" />
-                        </div>
-                        <span className="text-sm text-slate-700">Primeiro Pokémon</span>
-                        {capturedCount > 0 ? (
-                          <Badge className="bg-slate-700 text-white">✓</Badge>
-                        ) : (
-                          <Badge variant="outline">Pendente</Badge>
-                        )}
+                
+                <Card className="bg-white/95 dark:bg-slate-800/95 backdrop-blur-sm border border-slate-200 dark:border-slate-700">
+                  <CardContent className="p-4">
+                    <div className="flex items-center gap-3">
+                      <div className="p-2 bg-yellow-100 dark:bg-yellow-900/20 rounded-lg">
+                        <Sparkles className="w-5 h-5 text-yellow-600" />
+                      </div>
+                      <div>
+                        <p className="text-sm text-slate-600 dark:text-slate-400">Pokémons Shiny</p>
+                        <p className="text-2xl font-bold text-slate-800 dark:text-white">{shinyCount}</p>
+                        <p className="text-xs text-slate-500">{capturedCount > 0 ? ((shinyCount/capturedCount)*100).toFixed(1) : 0}% do total</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+                
+                <Card className="bg-white/95 dark:bg-slate-800/95 backdrop-blur-sm border border-slate-200 dark:border-slate-700">
+                  <CardContent className="p-4">
+                    <div className="flex items-center gap-3">
+                      <div className="p-2 bg-orange-100 dark:bg-orange-900/20 rounded-lg">
+                        <Star className="w-5 h-5 text-orange-600" />
+                      </div>
+                      <div>
+                        <p className="text-sm text-slate-600 dark:text-slate-400">Pokémons Lucky</p>
+                        <p className="text-2xl font-bold text-slate-800 dark:text-white">{luckyCount}</p>
+                        <p className="text-xs text-slate-500">{capturedCount > 0 ? ((luckyCount/capturedCount)*100).toFixed(1) : 0}% do total</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+                
+                <Card className="bg-white/95 dark:bg-slate-800/95 backdrop-blur-sm border border-slate-200 dark:border-slate-700">
+                  <CardContent className="p-4">
+                    <div className="flex items-center gap-3">
+                      <div className="p-2 bg-blue-100 dark:bg-blue-900/20 rounded-lg">
+                        <Target className="w-5 h-5 text-blue-600" />
+                      </div>
+                      <div>
+                        <p className="text-sm text-slate-600 dark:text-slate-400">Completude</p>
+                        <p className="text-2xl font-bold text-slate-800 dark:text-white">{completionPercentage}%</p>
+                        <p className="text-xs text-slate-500">da Pokédex</p>
                       </div>
                     </div>
                   </CardContent>
                 </Card>
               </div>
+
+              {/* Enhanced Statistics Section */}
+              <AdvancedStats />
+              
+              {/* Original Charts */}
+              <div className="mt-8">
+                <StatsChart />
+              </div>
+              
+              {/* Generation Progress Section */}
+              <div className="mt-8">
+                <GenerationStats />
+              </div>
             </div>
           </TabsContent>
-          <TabsContent value="achievements" className="mt-6">
+          <TabsContent value="achievements" className="pt-2">
             <AchievementsView />
           </TabsContent>
         </Tabs>
+        </div>
+        <LegalFooter />
       </div>
-      <LegalFooter />
     </div>
   )
 }
